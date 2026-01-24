@@ -46,7 +46,7 @@ export const INITIAL_DATA: PortfolioData = {
   projects: [
     {
       id: "1",
-      title: "EV Charging Station Management Syste",
+      title: "V Charging Station Management Systes",
       period: "12/2025",
       link: "https://github.com/RanasingheDD/ev_station_booking",
       description: ["Full-stack system Development project", "Focused on secure API design, authentication, and cloud deployment"],

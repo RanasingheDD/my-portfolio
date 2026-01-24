@@ -51,7 +51,7 @@ export const INITIAL_DATA: PortfolioData = {
       link: "https://github.com/RanasingheDD/ev_station_booking",
       description: ["Full-stack system Development project", "Focused on secure API design, authentication, and cloud deployment"],
       technologies: ["React", "TypeScript", "SpringBoot", "Spring Security", "JWT", "OAuth", "Flutter", "AWS", "Linux", "ELK"],
-      imageUrl: "./assets/images/EV-web.png"
+      imageUrl: "/images/EV-web.png"
     },
     {
       id: "2",
@@ -60,7 +60,7 @@ export const INITIAL_DATA: PortfolioData = {
       link: "https://www.linkedin.com/posts/dishan-ranasinghe_securing-a-web-application-on-aws-ugcPost-7398259921013727232-REms?utm_source=share&utm_medium=member_desktop&rcm=ACoAADPb2hkB7KrlZfvIbyXY4OPRv_gYRgrwRYg",
       description: ["Implemented secure cloud architecture using IAM, VPC, EC2, and S3", "Configured WAF, GuardDuty, CloudTrail, and CloudWatch for threat detection"],
       technologies: ["Linux", "IAM", "VPC", "EC2", "S3", "WAF", "GuardDuty", "CloudTrail", "CloudWatch"],
-      imageUrl: "./assets/images/secring-web-aws.png"
+      imageUrl: "/images/secring-web-aws.png"
     },
     {
       id: "3",
@@ -69,7 +69,7 @@ export const INITIAL_DATA: PortfolioData = {
       link: "https://github.com/madush123/VirusGuard",
       description: ["Developed malware detection using hash-based analysis and Integrated centralized threat database"],
       technologies: ["C#", "Visual Programming" , "RDLC", "MySql", "Github", "SHA-256", "MD5", "VirusTotal"],
-      imageUrl: "./assets/images/medusa-av.png"
+      imageUrl: "/images/medusa-av.png"
     },
         {
       id: "4",
@@ -78,7 +78,7 @@ export const INITIAL_DATA: PortfolioData = {
       link: "https://www.linkedin.com/posts/dishan-ranasinghe_ai-machinelearning-deepseek-activity-7309496708948770816-HXqZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADPb2hkB7KrlZfvIbyXY4OPRv_gYRgrwRYg",
       description: ["Help pet owners diagnose potential diseases based on symptoms and Integrating DeepSeek R1 for intelligent predictions"],
       technologies: ["Flutter", "NodeJs", "DeepSeek R1 API", "Firebase Authentication"],
-      imageUrl: "./assets/images/dog.png"
+      imageUrl: "/images/dog.png"
     },
     {
       id: "5",
@@ -87,7 +87,7 @@ export const INITIAL_DATA: PortfolioData = {
       link: "https://github.com/RanasingheDD/Students-Attendance-system",
       description: ["Development of a student attendance system using Java, featuring a graphical user interface "],
       technologies: ["  Java", "Java Gui", "OOP", "Mysql"],
-      imageUrl: "./assets/images/attendence.png"
+      imageUrl: "/images/attendence.png"
     },
     {
       id: "6",

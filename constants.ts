@@ -55,21 +55,21 @@ export const INITIAL_DATA: PortfolioData = {
     },
     {
       id: "2",
-      title: "Infrastructure as Code (IaC) with Terraform on AWS",
-      period: "01/2026 - 02/2026",
-      link: "https://github.com/RanasingheDD/terraform-aws-iac",
-      description: ["Designed and provisioned complete AWS infrastructure using Terraform. Created VPC with public/private subnets. Configured EC2 instance and S3. Implemented security groups . Used remote backend (S3 + DynamoDB) for state management."],
-      technologies: ["AWS", "Terraform", "GitHub"],
-      imageUrl: "/images/iac.png"
-    },
-    {
-      id: "3",
       title: "CI/CD Pipeline Implementation on AWS EKS",
       period: "02/2026",
       link: "https://github.com/RanasingheDD/aws-eks--ci-cd-pipeline",
       description: ["implementation of a fully automated CI/CD pipeline for deploying a containerized microservices application to Amazon Elastic Kubernetes Service (EKS)."],
       technologies: ["Linux", "IAM", "VPC", "EC2", "GitHubActions", "GitHub", "Docker", "Helm", "AWS EKS"],
       imageUrl: "/images/eks.png"
+    },
+    {
+      id: "3",
+      title: "Infrastructure as Code (IaC) with Terraform on AWS",
+      period: "01/2026 - 02/2026",
+      link: "https://github.com/RanasingheDD/terraform-aws-iac",
+      description: ["Designed and provisioned complete AWS infrastructure using Terraform. Created VPC with public/private subnets. Configured EC2 instance and S3. Implemented security groups . Used remote backend (S3 + DynamoDB) for state management."],
+      technologies: ["AWS", "Terraform", "GitHub"],
+      imageUrl: "/images/iac.png"
     },
     {
       id: "4",

@@ -9,7 +9,7 @@ export const INITIAL_DATA: PortfolioData = {
   linkedin: "linkedin.com/in/dishan-ranasinghe",
   github: "github.com/RanasingheDD",
   medium: "medium.com/@roxchain12345",
-  cvUrl: "https://drive.google.com/file/d/1ktq4T1YXcGOPZc_ShNJBZSqxyRi75Sie/view?usp=drive_link", 
+  cvUrl: "https://drive.google.com/file/d/1tf9MjVw4NevZwFiIz_MG9VNKWJa8M40d/view?usp=sharing", 
   summary: "Real world problem solver with strong hands-on experience in designing, developing, and securing scalable systems. Passionate about System Design, cloud-native architectures, and DevSecOps practices. Proven experience in AWS, Azure, CTF development, and building secure software solutions with a user-centric approach.",
   education: {
     school: "UNIVERSITY OF KELANIYA",
@@ -55,6 +55,24 @@ export const INITIAL_DATA: PortfolioData = {
     },
     {
       id: "2",
+      title: "Infrastructure as Code (IaC) with Terraform on AWS",
+      period: "01/2026 - 02/2026",
+      link: "https://github.com/RanasingheDD/terraform-aws-iac",
+      description: ["Designed and provisioned complete AWS infrastructure using Terraform. Created VPC with public/private subnets. Configured EC2 instance and S3. Implemented security groups . Used remote backend (S3 + DynamoDB) for state management."],
+      technologies: ["AWS", "Terraform", "GitHub"],
+      imageUrl: "/images/iac.png"
+    },
+    {
+      id: "3",
+      title: "CI/CD Pipeline Implementation on AWS EKS",
+      period: "02/2026",
+      link: "https://github.com/RanasingheDD/aws-eks--ci-cd-pipeline",
+      description: ["implementation of a fully automated CI/CD pipeline for deploying a containerized microservices application to Amazon Elastic Kubernetes Service (EKS)."],
+      technologies: ["Linux", "IAM", "VPC", "EC2", "GitHubActions", "GitHub", "Docker", "Helm", "AWS EKS"],
+      imageUrl: "/images/eks.png"
+    },
+    {
+      id: "4",
       title: "Securing a Web Application on AWS",
       period: "10/2025 - 12/2025",
       link: "https://www.linkedin.com/posts/dishan-ranasinghe_securing-a-web-application-on-aws-ugcPost-7398259921013727232-REms?utm_source=share&utm_medium=member_desktop&rcm=ACoAADPb2hkB7KrlZfvIbyXY4OPRv_gYRgrwRYg",
@@ -63,7 +81,7 @@ export const INITIAL_DATA: PortfolioData = {
       imageUrl: "/images/secring-web-aws.png"
     },
     {
-      id: "3",
+      id: "5",
       title: "Antivirus Software for Windows ",
       period: "06/2025 - 09/2025",
       link: "https://github.com/madush123/VirusGuard",
@@ -71,8 +89,8 @@ export const INITIAL_DATA: PortfolioData = {
       technologies: ["C#", "Visual Programming" , "RDLC", "MySql", "Github", "SHA-256", "MD5", "VirusTotal"],
       imageUrl: "/images/medusa-av.png"
     },
-        {
-      id: "4",
+    {
+      id: "6",
       title: "Dog Disease Diagnosis- Dog Care Mobile App",
       period: "03/2025 - 05/2025",
       link: "https://www.linkedin.com/posts/dishan-ranasinghe_ai-machinelearning-deepseek-activity-7309496708948770816-HXqZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADPb2hkB7KrlZfvIbyXY4OPRv_gYRgrwRYg",
@@ -81,7 +99,7 @@ export const INITIAL_DATA: PortfolioData = {
       imageUrl: "/images/dog.png"
     },
     {
-      id: "5",
+      id: "7",
       title: "Student Attendance System",
       period: "2023 ",
       link: "https://github.com/RanasingheDD/Students-Attendance-system",
@@ -90,7 +108,7 @@ export const INITIAL_DATA: PortfolioData = {
       imageUrl: "/images/attendence.png"
     },
     {
-      id: "6",
+      id: "8",
       title: "E-Commercial Mobile Application",
       period: "03/2024 - 06/2024",
       link: "#",
@@ -185,6 +203,7 @@ export const INITIAL_DATA: PortfolioData = {
       skills: [
         { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
         { name: "Azure", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+        { name: "Kubernetes", logo: "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/kubernetes/kubernetes-original.svg" },
         { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
         { name: "Terraform", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" },
         { name: "Ansible", logo: "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/ansible/ansible-original.svg" }

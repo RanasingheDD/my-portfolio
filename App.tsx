@@ -172,7 +172,7 @@ const App: React.FC = () => {
           <div className="relative reveal delay-200">
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/30 to-purple-600/30 blur-[120px] rounded-full animate-float"></div>
             <div className="relative aspect-square rounded-[2rem] overflow-hidden border border-white/10 glass rotate-2 hover:rotate-0 transition-all duration-700 shadow-2xl">
-              <img src="https://media.licdn.com/dms/image/v2/D5603AQF-9yW51KS5Mw/profile-displayphoto-shrink_800_800/B56Zcq4TAIHUAk-/0/1748771091063?e=1770854400&v=beta&t=wIlHGxDS1SOpVGKXWlqcITcAaVK_BgqV_VXin2aaJSE" alt="Profile" className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 hover:scale-105 transition-all duration-700" />
+              <img src="/images/My-Photo.png" alt="Profile" className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 hover:scale-105 transition-all duration-700" />
             </div>
             {/* Floating Cards */}
             <div className="absolute -bottom-6 -left-6 glass p-4 rounded-2xl border border-white/10 shadow-2xl animate-float">
